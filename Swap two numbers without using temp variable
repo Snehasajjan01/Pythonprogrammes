@@ -1,0 +1,13 @@
+# Program to swap two numbers without using a temporary variable
+
+a = int(input("Enter first number a:"))
+b = int(input("Enter second number b:"))
+
+print("Before Swap: a =", a, "b =", b)
+
+# Logic: use arithmetic operations
+a = a + b  # a becomes 30
+b = a - b  # b becomes 10 (30 - 20)
+a = a - b  # a becomes 20 (30 - 10)
+
+print("After Swap: a =", a, "b =", b)
