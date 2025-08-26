@@ -1,0 +1,12 @@
+# Program to reverse a string without using slicing or built-in functions
+
+s = input("Enter a string: ")
+
+rev = ""  # to store reversed string
+
+# Traverse string from last character to first
+for i in range(len(s) - 1, -1, -1):
+    rev = rev + s[i]
+
+print("Original String:", s)
+print("Reversed String:", rev)
