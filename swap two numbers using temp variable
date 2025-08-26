@@ -1,0 +1,29 @@
+# Program to swap two numbers using a temporary variable
+
+a = 10
+b = 20
+
+print("Before Swap: a =", a, "b =", b)
+
+# Logic: use a temporary variable
+temp = a   # store value of a
+a = b      # assign value of b to a
+b = temp   # assign stored value of a to b
+
+print("After Swap: a =", a, "b =", b)
+
+Dynamic Code (Using Temporary Variable)
+# Program to swap two numbers using a temporary variable
+
+# Take input from user
+a = int(input("Enter first number (a): "))
+b = int(input("Enter second number (b): "))
+
+print("Before Swap: a =", a, "b =", b)
+
+# Logic: use a temporary variable
+temp = a
+a = b
+b = temp
+
+print("After Swap: a =", a, "b =", b)
