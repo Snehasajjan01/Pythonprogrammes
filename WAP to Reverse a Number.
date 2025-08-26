@@ -1,0 +1,15 @@
+# Program to reverse a number without using string slicing
+
+# Take input from user
+n = int(input("Enter a number: "))
+
+rev = 0   # to store reversed number
+original = n  # keep a copy of original for display
+
+while n > 0:
+    digit = n % 10        # get last digit
+    rev = rev * 10 + digit  # build reversed number
+    n = n // 10           # remove last digit
+
+print("Original Number:", original)
+print("Reversed Number:", rev)
