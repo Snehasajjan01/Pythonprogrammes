@@ -1,0 +1,15 @@
+# Palindrome check without using slicing
+
+n = input("Enter a number: ")  # take input as string
+
+rev = ""  # to build reversed string
+
+# reverse manually using loop
+for i in range(len(n) - 1, -1, -1):
+    rev = rev + n[i]
+
+# check palindrome
+if n == rev:
+    print(n, "is a Palindrome")
+else:
+    print(n, "is Not a Palindrome")
